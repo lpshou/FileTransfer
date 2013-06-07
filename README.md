@@ -14,5 +14,6 @@ put /usr/local/a.txt /usr/ ( get server file /usr/local/a.txt to local folder /u
 bye  (disconnect)
 --------------------------------------------------------------------------------------------------
 SERVER:
-
+gcc -I/usr/local/project/fileTrans/server -o main main.c command.c
+./main
 
