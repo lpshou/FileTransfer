@@ -1,0 +1,6 @@
+gcc -I/usr/local/project/fileTrans/server -o main main.c command.c
+./main
+
+
+
+
